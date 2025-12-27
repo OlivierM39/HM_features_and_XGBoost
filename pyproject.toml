@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hm-features"
+version = "0.1.0"
+description = "Hydrometeorological feature calculations (R/ER and GWL/WL)."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Olivier Béjean-Maillard"}]
+license = {file = "LICENSE"}
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.23",
+  "openpyxl>=3.1",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

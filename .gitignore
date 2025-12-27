@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Data (keep structure; do not commit large raw data by default)
+data/**/*.xlsx
+data/**/*.csv
+data/**/*.parquet
