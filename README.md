@@ -101,7 +101,7 @@ The pipeline expects (after renaming):
 - `Date` (datetime)
 - `R`
 - `ER`
-- `WLI` : internal water level / piezometric series (site-specific meaning)
+- `WLI` : first water level series (site-specific meaning)
 - `WLM` : second water level series (site-specific meaning)
 
 Example:
