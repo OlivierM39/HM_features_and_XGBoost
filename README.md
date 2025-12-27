@@ -245,7 +245,7 @@ If you plan to share data with this code, please provide:
 This project is distributed under the **MIT License** (see `LICENSE`).
 ---
 
-## Citation (optional)
+## Citation
 
 If you use this code, please cite **(1) this repository** and, when relevant, **(2) the related manuscript**.
 
