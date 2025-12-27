@@ -250,8 +250,7 @@ This project is distributed under the **MIT License** (see `LICENSE`).
 If you use this code, please cite **(1) this repository** and, when relevant, **(2) the related manuscript**.
 
 ### (1) Software / repository
-Béjean-Maillard, O. (2025). *Hydrometeorological features and XGBoost modelling* (Version X.Y). GitHub repository.  
-For reproducibility, consider citing a specific **release/tag** or **commit hash**.
+Béjean-Maillard, O. (2025). *Hydrometeorological features and XGBoost modelling* (v0.1.0). GitHub repository.  
 
 ### (2) Related manuscript (in preparation)
 Béjean-Maillard, O., Bertrand, C., Malet, J.-P., Dubois, L., Batailles, C., Lespine, L., & Ducasse, J. (in preparation).  
