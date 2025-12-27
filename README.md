@@ -229,22 +229,30 @@ directly if you expose them from `src/xgb_pipeline/`.
 
 ## Data policy
 
-- This repo is intended to be **open access** for code and documentation.
-- Place raw datasets in `data/` (ignored by default) to avoid pushing sensitive/large files.
-- If you share data, provide:
-  - units (e.g. mm/day, m),
-  - time step (daily),
-  - date range,
-  - any preprocessing steps.
+This repository is open access for **code and documentation**.  
+The input datasets used in the associated study are **not included** in this repository.
 
+To run the workflows, place your own input files under `data/` (see the recommended layout above).  
+If you plan to share data with this code, please provide:
+- units (e.g. mm/day, m),
+- time step (daily recommended),
+- date range,
+- preprocessing steps (gap filling, resampling, filtering, etc.).
 ---
 
 ## License
 
-Add a `LICENSE` file (recommended: **MIT**). GitHub will then clearly show reuse terms.
-
+This project is distributed under the **MIT License** (see `LICENSE`).
 ---
 
 ## Citation (optional)
 
-If you want GitHub to show a “Cite this repository” button, add a `CITATION.cff` file.
+If you use this code, please cite **(1) this repository** and, when relevant, **(2) the related manuscript**.
+
+### (1) Software / repository
+Béjean-Maillard, O. (2025). *Hydrometeorological features and XGBoost modelling* (Version X.Y). GitHub repository.  
+For reproducibility, consider citing a specific **release/tag** or **commit hash**.
+
+### (2) Related manuscript (in preparation)
+Béjean-Maillard, O., Bertrand, C., Malet, J.-P., Dubois, L., Batailles, C., Lespine, L., & Ducasse, J. (in preparation).  
+*A Generic and Explainable AI-based Workflow to Simulate Landslide Dynamics Using Hydro-Meteorological Observations*.
